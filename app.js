@@ -29,7 +29,7 @@ async function fetchAPI(){
 
     content.innerHTML = 
     `
-        <a href="${data.html_url}" style="text-decoration: none">
+        <a href="${data.html_url}" style="text-decoration: none" target="_blank">
 
         <div class="card" style="width: 13rem;">
         <img class="card-img-top" src="${data.avatar_url}" alt="Card image cap">
